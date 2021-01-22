@@ -119,7 +119,7 @@ if __name__ == "__main__":
             line_width,
         )
 
-        text = TITLE_FONT.render("HOME GAME", 1, IND)
+        text = TITLE_FONT.render("DAILY CHORES", 1, IND)
         win.blit(text, (WIDTH / 2 - text.get_width() / 2, HEIGHT / 12))
 
     def draw_first_page():
